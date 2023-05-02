@@ -1,6 +1,6 @@
 from counter import Counter
 
-c1 = Counter(-12)
+c1 = Counter()
 c2 = Counter()
 c3 = Counter(10)
 

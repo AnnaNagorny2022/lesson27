@@ -1,6 +1,10 @@
 class Counter:
     def __init__(self, count=0):
-        self.__count = count
+        if count >= 0:
+            self.__count = count
+
+        else:
+            self.__count = 0
 
     def get_count(self):
         return self.__count
